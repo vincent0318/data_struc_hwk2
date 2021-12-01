@@ -326,7 +326,7 @@ result_1.open("result_1.csv", ios::app);
 result_2.open("result_2.csv", ios::app);
 result_3.open("skiplist_AdditionalCopy.csv", ios::app);
 result_4.open("skiplist_LvL.csv", ios::app);
-/*
+
 cout << "SkipList(p=0.5)" << endl;
 result_1 << "SkipList(p=0.5)," << ',' << endl;
 result_2 << "SkipList(p=0.5)," << ',' << endl;
@@ -480,7 +480,7 @@ diff=double(end-begin)/CLOCKS_PER_SEC;
 result_2 << ",Search time:," << diff << ','  << endl;
 cout << " Done " << endl;
 }
-*/
+
 TreapNod* root = nullptr;
 cout << "Treap" << endl;
 result_1 << "Treap," << ',' << endl;
